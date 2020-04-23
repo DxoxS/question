@@ -1,0 +1,29 @@
+@media screen and (max-width:768px){
+    #hamburger{
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        cursor: pointer;
+        z-index: 100;
+        top: 15px;
+        right: 20px;
+        transition: 4s;
+    }
+    .header-nav{
+        display: none;
+    }
+    .about-left, .about-right,
+    .business-cat{
+        width: 80%;
+    }
+    label{
+        display: block;
+    }
+    .form > div{
+        margin: 0 auto;
+    }
+    input, textarea{
+        width: 100%;
+    }
+
+}
