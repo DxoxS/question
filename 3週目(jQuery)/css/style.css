@@ -1,0 +1,193 @@
+@charset "UTF-8" ;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0;
+    text-align: center;
+    padding: 40px 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.wrap{
+    width: 0 auto 50px;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+/*header*/
+
+header{
+    background: #000000;
+    height: 70px;
+    line-height: 70px;
+}
+
+.header-logo{
+    color: #ffffff;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.header-nav li{
+    display: inline-block;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 35px;
+    font-size: 16px;
+}
+
+/*eyecatch*/
+
+.eyecatch{
+    background-image: url(../img/eyecatch.webp);
+    background-size: cover;
+}
+
+.eyecatch p{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 250px 0;
+    text-align: center;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+/*about*/
+
+.about-left{
+    width: 45%;
+}
+
+.about-right{
+    width: 45%;
+    text-align: left;
+}
+
+.about-right h3, .about-right p{
+    padding-bottom: 15px;
+}
+
+.about-right ol{
+    list-style-position: inside;
+}
+
+/*service*/
+
+.service{
+    color: #ffffff;
+    background-image: url(../img/green.webp);
+    background-size: cover;
+    text-align: center;
+}
+
+.service-cat{
+    display: inline-block;
+    width: 28%;
+    margin: 0 35px 30px 35px;
+    background: rgba(0,0, 0, 0.5);
+}
+
+.service-cat img{
+    height: 35%;
+    width: 35%;
+    margin: auto;
+}
+.service-cat h3, .service-cat p{
+    padding: 10px 0;
+}
+
+/*company*/
+
+#company{
+    margin: 30px 0;
+}
+
+#company .contain{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+#company table tr{
+    border-bottom: 1px solid #333333;
+}
+#company th, .company th{
+    text-align: left;
+}
+#company th{
+    padding: 10px 0;
+}
+
+/*contact*/
+
+.contact{
+    background: rgb(241, 241, 241);
+}
+.contact .section-title{
+    padding: 40px 0;
+    margin: 0;
+}
+.form{
+    width: 70%;
+    margin: 0 auto;
+}
+.form > div input{
+    margin-bottom: 20px;
+    padding: 7px;
+}
+label{
+    display: inline-block;
+    width: 30%;
+}
+input, textarea{
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    width: 65%;
+}
+textarea{
+    vertical-align: top;
+    height: 15em;
+}
+.submit-button{
+    text-align: center;
+}
+.button{
+    padding: 10px 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 30px 0;
+}
+
+/*footer*/
+
+footer{
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
